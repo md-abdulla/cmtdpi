@@ -295,18 +295,24 @@ Email : <a href="#"> maksuda_yasmin@yahoo.co.uk</a>
         </div>
         <div class="display">
           <div class="container">
+             <div class="row">
+              <div class="col text-center">
+                  <h2><span id="type"></span></h2>
+              </div>
+            </div>
             <div class="row">
               <div class="col text-center">
                 <ul>
                   <li><a data-toggle="modal" data-target="#about"><img src="img/ab.png" alt=""></a></li>
-                  <li><a href="#"><img src="img/classroom.png" alt=""></a></li>
+                  <li><a data-toggle="modal" data-target="#classroom"><img src="img/classroom.png" alt=""></a></li>
                   <li><a href="https://bit.ly/2LTz6Hy"><img src="img/fb.png" alt=""></a></li>
                   <li><a data-toggle="modal" data-target="#mgallery"><img src="img/gallery.png" alt=""></a></li>
                   <li><a href="http://www.bteb.gov.bd/"><img src="img/chrome.png" alt=""></a></li>
-                  <li><a href=""><img src="img/gmail.png" alt=""></a></li>
+                  <li><a data-toggle="modal" data-target="#gmail"><img src="img/gmail.png" alt=""></a></li>
                 </ul>
               </div>
             </div>
+           
           </div>
         </div>
           
@@ -402,7 +408,7 @@ The major job fields of a Computer Diploma Graduate are Computer Software & Hard
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" id="photo">
       <img src="img/1.jpg" alt="">
       <img src="img/2.jpg" alt="">
       <img src="img/3.jpg" alt="">
@@ -419,6 +425,153 @@ The major job fields of a Computer Diploma Graduate are Computer Software & Hard
 
 
       <!-- modal -->
+        <!-- modal -->
+<div class="modal fade" id="gmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section id="contact" class="contact">
+        <div class="container">
+            <form action="contact.php" method="post">
+                <label for="first_name">First Name *</label>
+                <input type="text" name="first_name" maxlength="50" size="30">
+
+                <label for="last_name">Last Name *</label>
+                <input type="text" name="last_name" maxlength="50" size="30">
+
+                <label for="email">Email Address *</label>
+                <input type="text" name="email" maxlength="80" size="30">
+
+                <label for="telephone">Telephone Number *</label>
+                <input type="text" name="telephone" maxlength="30" size="30">
+
+                <label for="comments">Comments *</label>
+                <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </section>
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- modal -->
+       <!-- modal -->
+<div class="modal fade" id="classroom" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Teacher</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+   <div class="row">
+       <div class="col text-center">
+         <img src="img/cisir2.jpg" alt="" class="mb-5">
+
+       </div>
+       <div class="col">
+        <p>
+          Name : Engr. Zahed Ahmed Chowdhury
+    Designation : Chief Instructor & Head of the Department  <br>
+Educational Qualification : MSc in Engg. (CSE) <br>
+Phone : 01552153546, 01676041925 <br>
+Email : <a href="#">zahed_sylhet@yahoo.com</a>
+        </p>
+       </div>
+     </div>
+
+
+        <div class="row">
+       <div class="col text-center">
+         <img src="img/sajidulsir.jpg" alt="" class="mb-5">
+
+       </div>
+       <div class="col">
+         <p>
+           Name : Mohammad Sajedul Islam <br>
+Designation : Instructor <br>
+Educational Qualification : B.Sc. in Engg. <br>
+Phone : 01815-842740 <br>
+Email : <a href="#">sajedulduet@gmail.com </a>
+         </p>
+       </div>
+     </div>
+
+       <div class="row">
+       <div class="col text-center">
+       <img src="img/nigarmem.jpg" alt="" class="mb-5">
+
+       </div>
+       <div class="col">
+        <p>
+           Name : Nigar Sultana <br>
+Designation : Instructor <br>
+Educational Qualification : BSc in Engg. <br>
+Email : <a href="#">nsd_deep@yahoo.com </a>
+         </p>
+       </div>
+     </div>
+    
+       <div class="row">
+       <div class="col text-center">
+      <img src="img/lutfamem.jpg" alt="" class="mb-5">
+
+       </div>
+       <div class="col">
+         <p>
+           Name : Lutfa Khanam <br>
+Designation : Jr. Instructor <br>
+Educational Qualification : BSc in Engg. <br>
+Phone : 01911-214879 <br>
+Email : <a href="#"> lutfajoly@gmail.com</a>
+         </p>
+       </div>
+     </div>
+
+      <div class="row">
+       <div class="col text-center">
+      <img src="img/makchudamem.jpg" alt="" class="mb-5">
+
+       </div>
+       <div class="col">
+        <p>
+          Name : Maksuda Yesmin <br>
+Designation : Jr. Instructor <br>
+Educational Qualification : BSc in Engg. <br>
+Email : <a href="#"> maksuda_yasmin@yahoo.co.uk</a>
+         </p>
+       </div>
+     </div>
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- modal -->
+
 
 
     </section>
@@ -520,6 +673,17 @@ The major job fields of a Computer Diploma Graduate are Computer Software & Hard
     <!-- type -->
      <script type="text/javascript">
       var typed = new Typed('#typed',{
+                    strings:["welcome to  DPI Computer Technology."],
+                    
+                    typeSpeed: 60,
+                    backSpeed: 10,
+                    loop:true,
+                  });
+    </script>
+     <!-- type -->
+     <!-- type -->
+     <script type="text/javascript">
+      var typed = new Typed('#type',{
                     strings:["welcome to  DPI Computer Technology."],
                     
                     typeSpeed: 60,
