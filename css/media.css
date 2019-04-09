@@ -73,7 +73,7 @@
 .row{
 	border: none !important;
 }
- 	.modal-body img{
+ #photo img{
 
 width: 450px;
 
@@ -82,6 +82,14 @@ margin: 0 auto;
 display: block;
 
 margin-bottom: 10px;
+}
+.display h2{
+	
+color: #fff;
+	
+font-size: 20px;
+	
+padding: 10px;
 }
 
 	
@@ -132,7 +140,7 @@ margin-bottom: 10px;
 .row{
 	border: none !important;
 }
-.modal-body img{
+#photo img{
 
 width: 250px;
 
@@ -141,6 +149,25 @@ margin: 0 auto;
 display: block;
 
 margin-bottom: 10px;
+}
+.display h2{
+
+color: #fff;
+
+font-size: 12px;
+
+padding: 10px;
+}
+form input[type="text"], select, textarea {
+    width: 100%;
+    padding: 2px;
+    border-radius: 25px 0 25px 0;
+    border: 1px solid #222;
+    background: transparent;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #b2b2b2;
 }
 
 
