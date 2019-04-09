@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+   
+}
+body{
+    background: black;
+    
+}
+
+#preloader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(../img/wloader.gif);
+    z-index: 99999;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center center;
+    
+}
+
+.windopage {
+    height: 95vh;
+    background: url(../img/windo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+
+}
+.menu {
+    width: 80px;
+    box-shadow: 0 0 50px;
+    height: 400px;
+    background: #6a0da3;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    transform: translate(-2%, -50%);
+    z-index: 5;
+}
+
+
+
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: block;
+}
+
+.menu ul li {
+    color: #fff;
+}
+
+.menu ul li a {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.menu .fas,.menu .far {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+}
+
+.menu ul li a:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.windopage h2{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%,-50%);
+
+color: #fff;
+font-size: 20px;
+text-transform: uppercase;
+}
+.row{
+    border: 1px solid black !important;
+}
+
+.modal-content span:hover{
+    color: red;
+}
+.card h4{
+    
+font-size: 18px;
+    
+font-weight: bold;
+}
+.c2{
+
+}
+
+label {
+    color: orange;
+}
+
+form input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px 0 25px 0;
+    border: 1px solid #222;
+    background: transparent;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #b2b2b2;
+}
+
+form input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid #006988;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: #ffb630;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: 1px solid #222;
+    cursor: pointer;
+    transition: all 0.35s;
+    border-radius: 30px 0 30px 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #350651;
+    color: #fff;
+}
+
+footer {}
+
+.foot {
+    background: black;
+    padding: 0px 25px;
+}
+
+.foot ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.foot ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.foot ul li i {
+    padding: 0 4px;
+    color: #fff;
+}
+
+.foot span {
+    float: left;
+    color: #fff;
+}
+/* mobile */
+#mobile{
+    background: lightblue;
+}
